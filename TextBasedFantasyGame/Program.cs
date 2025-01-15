@@ -45,9 +45,15 @@ var app = builder.Build();
 
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    // Enable Swagger in development
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+else
+{
+    // Use HSTS in production
     app.UseHsts();
 }
 
@@ -62,7 +68,7 @@ app.UseCors("AllowAll");
 //     pattern: "api/{controller}/{action=Index}/{id?}");
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllers(); // This enables controller-based routing
+    endpoints.MapControllers(); // This enables controller-based routings
 });
 
 app.MapFallbackToFile("index.html");

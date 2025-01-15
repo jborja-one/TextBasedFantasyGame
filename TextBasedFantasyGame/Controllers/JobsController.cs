@@ -17,9 +17,15 @@ public class JobsController : ControllerBase
     [HttpGet]
     public IActionResult GetJobs()
     {
-        var jobs = _jobService.GetAllJobs();
-        Console.WriteLine("Received request for GetJobs");
-        return Ok(jobs);
+        try
+        {
+            var jobs = _jobService.GetAllJobs();
+            return Ok(jobs);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { error = "An error occurred while fetching jobs.", details = ex.Message });
+        }
     }
 
     [HttpGet("{jobName}")]
