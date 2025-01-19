@@ -10,7 +10,7 @@ export class FetchData extends Component {
 
   componentDidMount() {
     this.populateWeatherData();
-    this.populateCharacterData();
+    // this.populateCharacterData();
   }
 
   static renderForecastsTable(forecasts) {
@@ -58,11 +58,11 @@ export class FetchData extends Component {
     this.setState({ forecasts: data, loading: false });
   }
 
-  async populateCharacterData() {
-    const response = await fetch('/allcharacters'); // Add correct route
-    const data = await response.json();
-    console.log(`Data: ${data}`);
-    this.setState({ jobs: data, loading: false });
-  }
+  // async populateCharacterData() {
+  //   const response = await fetch('/allcharacters'); // Add correct route
+  //   const data = await response.json();
+  //   console.log(`Data: ${data}`);
+  //   this.setState({ jobs: data, loading: false });
+  // }
 
 }

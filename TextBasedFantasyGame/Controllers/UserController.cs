@@ -16,7 +16,7 @@ public class UserController : ControllerBase
         this.repo = repo;
     }
 
-    //POST: api/login
+    //POST: api/user/login
     [HttpPost("login")]
     public IActionResult Login([FromBody] LoginRequest loginRequest)
     {
@@ -28,7 +28,7 @@ public class UserController : ControllerBase
         return Ok("Login Successful");
     }
 
-    //POST: api/signup
+    //POST: api/user/signup
     [HttpPost("signup")]
     public IActionResult Signup([FromBody] SignupRequest signupRequest)
     {

@@ -1,4 +1,5 @@
 using TextBasedFantasyGame.Actions.CasterAbilities;
+using TextBasedFantasyGame.Actions.OffensiveSpells;
 using TextBasedFantasyGame.Interfaces;
 using TextBasedFantasyGame.Models;
 
@@ -14,14 +15,14 @@ public class BlackMage : Job
         Description = "In days long past, there existed an occult and arcane art known as black magic—a potent magic of pure destructive force born forth by a sorceress of unparalleled power.";
         Spells = new List<ISpell>
         {
-            // new Fire(),
-            // new Blizzard(),
-            // new Thunder(),
-            // new Scathe(),
-            // new FireII(),
-            // new BlizzardII(),
-            // new Freeze(),
-            // new Flare()
+            new Fire(),
+            new Blizzard(),
+            new Thunder(),
+            new Scathe(),
+            new FireII(),
+            new BlizzardII(),
+            new Freeze(),
+            new Flare()
         };
         Abilities = new List<IAbility>
         {

@@ -38,15 +38,8 @@ public class CharacterController : ControllerBase
     [HttpGet(Name = "GetAllCharacters")]
     public IActionResult Get()
     {
-        try
-        {
-            var characters = repo.GetAllCharacters();
-            return Ok(characters);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, $"Internal server error: {ex.Message}");
-        }
+        var characters = repo.GetAllCharacters();
+        return Ok(characters); // Returns JSON
     }
 
     // POST: api/character/createcharacter
