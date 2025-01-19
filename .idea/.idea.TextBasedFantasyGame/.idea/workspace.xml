@@ -10,77 +10,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32ca8d16-9e8c-4ea0-aa40-46702792bb18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/CasterAbilities/Manaward.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/CasterAbilities/SwiftCast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/CasterAbilities/Transpose.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/aspnetcore-https.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/aspnetcore-react.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/AppRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/FetchData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/NavMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/NavMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/service-worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/serviceWorkerRegistration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/setupProxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Controllers/ChracterController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Controllers/JobsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Controllers/PlayerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Controllers/TestController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/DTOs/AbilityDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/DTOs/ActionDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/DTOs/JobDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/DTOs/LoginRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/DTOs/SignupRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/DTOs/SpellDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Interfaces/IAbility.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Interfaces/IAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Interfaces/ISpell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Bard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/BlackMage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Monk.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Paladin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Summoner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Warrior.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/WhiteMage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Models/Character.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Models/Job.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Models/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Repositories/CharacterRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Repositories/PlayerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Repositories/UserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Services/JobService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/TextBasedFantasyGame.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/DefensiveSpells/Cemency.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/DefensiveSpells/Cure.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/DefensiveSpells/CureII.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/DefensiveSpells/CureIII.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/DefensiveSpells/Physic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/DefensiveSpells/Regen.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/ArmOfTheDestroyer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/BladeOfFaith.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/BladeOfTruth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/BladeOfValor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/Bootshine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/Demolish.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/FastBlade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/GoringBlade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/HeavySwing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/InnerBeast.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/InnerChaos.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/Maim.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/Overpower.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/RiotBlade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/RoyalAuthority.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/ShieldBash.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/SnapPunch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/SteelCyclone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/SteelPeak.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/Tomahawk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/TornadoKick.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/TrueStrike.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/MeleeActions/TwinSnakes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Aero.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/AeroII.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Bahamut.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Blizzard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/BlizzardII.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Carbuncle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/EnergyDrain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Fester.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Fire.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/FireII.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Flare.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Freeze.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Glare.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Holy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/HolySpirit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Ifrit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Painflare.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Phoenix.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Ruin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Scathe.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Shiva.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Stone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/StoneII.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/OffensiveSpells/Thunder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/PhysicalAbilities/Berserk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/PhysicalAbilities/Equilibrium.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/PhysicalAbilities/Mantra.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/PhysicalAbilities/RaginStrikes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/PhysicalAbilities/Rampart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/PhysicalAbilities/SteeledMeditation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/PhysicalAbilities/Troubadour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/RangedActions/BloodLetter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/RangedActions/BurstArrow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/RangedActions/EmpyrealArrow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/RangedActions/HeavyShot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/RangedActions/RefulgentArrow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/RangedActions/Sidewinder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Actions/RangedActions/StraightShot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TextBasedFantasyGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextBasedFantasyGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/AppRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/AppRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/FetchData.js" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/FetchData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/NavMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/components/Test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/ClientApp/src/setupProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/Controllers/ChracterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Controllers/ChracterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Bard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Bard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/BlackMage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/BlackMage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Monk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Monk.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Paladin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Paladin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Summoner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Summoner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Warrior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/Warrior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/WhiteMage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/Jobs/WhiteMage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextBasedFantasyGame/TextBasedFantasyGame.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TextBasedFantasyGame/TextBasedFantasyGame.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,21 +126,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.TextBasedFantasyGame.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MTFeaturesSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.TextBasedFantasyGame.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTFeaturesSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/borjas/Documents/True Coders/TextBasedFantasyGame/TextBasedFantasyGame/ClientApp/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TextBasedFantasyGame" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TextBasedFantasyGame/TextBasedFantasyGame.csproj" />
@@ -153,6 +169,12 @@
       <updated>1734827023001</updated>
       <workItem from="1734827025566" duration="1843000" />
       <workItem from="1734828985321" duration="4170000" />
+      <workItem from="1736471174558" duration="3177000" />
+      <workItem from="1736711247969" duration="3164000" />
+      <workItem from="1736909601427" duration="2779000" />
+      <workItem from="1737076666722" duration="1862000" />
+      <workItem from="1737230429387" duration="7150000" />
+      <workItem from="1737311332373" duration="2201000" />
     </task>
     <servers />
   </component>
